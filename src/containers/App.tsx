@@ -34,7 +34,7 @@ function App() {
 
   return (
       <div className="text-center py-6">
-        <h1 className="text-4xl text-center my-4">RoboFriends</h1>
+        <h1 className="text-4xl text-center my-4 select-none">RoboFriends</h1>
         <SearchBox />
 
         { !robots.length ? (
